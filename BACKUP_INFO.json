@@ -1,0 +1,35 @@
+{
+  "projectName": "GoCart",
+  "version": "1.0.0",
+  "createdAt": "2025-10-11T19:55:12.921Z",
+  "instructions": [
+    "1. Install Node.js (v18 or higher)",
+    "2. Install PostgreSQL",
+    "3. Copy this project folder to new PC",
+    "4. Run: npm install",
+    "5. Create .env file with database credentials",
+    "6. Run: npx prisma db push",
+    "7. Run: npx prisma generate",
+    "8. Run: npm run dev",
+    "9. Access: http://localhost:3000"
+  ],
+  "importantFiles": [
+    ".env (update database credentials)",
+    "package.json",
+    "package-lock.json",
+    "prisma/schema.prisma",
+    "public/uploads/ (if exists)",
+    "DEPLOYMENT_GUIDE.md"
+  ],
+  "databaseSetup": {
+    "createDatabase": "CREATE DATABASE gocart_db;",
+    "prismaCommands": [
+      "npx prisma db push",
+      "npx prisma generate"
+    ]
+  },
+  "defaultAdmin": {
+    "email": "admin@example.com",
+    "note": "Password needs to be set during first setup"
+  }
+}

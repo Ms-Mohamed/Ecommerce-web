@@ -1,0 +1,852 @@
+{
+  "users": [
+    {
+      "id": "user_login_test",
+      "name": "Test User",
+      "email": "test@example.com",
+      "image": "https://ui-avatars.com/api/?name=Test+User&background=10B981&color=fff",
+      "password": null
+    },
+    {
+      "id": "user_test_123",
+      "name": "Test User",
+      "email": "test@example.com",
+      "image": "/assets/gs_logo.jpg",
+      "password": null
+    },
+    {
+      "id": "user_1760011085553_hsnn10ekk",
+      "name": "mohamed",
+      "email": "mohamed@gmail.com",
+      "image": "/assets/gs_logo.jpg",
+      "password": null
+    },
+    {
+      "id": "user_1760011384737_iqmrmr8fj",
+      "name": "zaid",
+      "email": "zaid@gmail.com",
+      "image": "/assets/gs_logo.jpg",
+      "password": null
+    },
+    {
+      "id": "admin_user_123",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "image": "/assets/gs_logo.jpg",
+      "password": "$2b$12$1LbJnRFo/8cSowVvZzKS..lSs67ai/v2OPWUiNfWbh7zw2ai3svCe"
+    },
+    {
+      "id": "user_1760199527293_svt3vdqyo",
+      "name": "zaid harboul",
+      "email": "zaidd@gmail.com",
+      "image": "/assets/gs_logo.jpg",
+      "password": "$2b$12$sOoSiR7n7h5EPo2Km4uFLeBiFiL9QT8nfIUYqzH.pHnNDiaMUjftO"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cmgm5xark0000vt3s207w5i3w",
+      "name": "Electronics",
+      "description": "Electronic devices and gadgets",
+      "isActive": true,
+      "createdAt": "2025-10-11T10:58:55.040Z",
+      "updatedAt": "2025-10-11T10:58:55.040Z"
+    },
+    {
+      "id": "cmgm5xas60004vt3sciszf7k7",
+      "name": "Toys & Games",
+      "description": "Toys, games, and entertainment",
+      "isActive": true,
+      "createdAt": "2025-10-11T10:58:55.063Z",
+      "updatedAt": "2025-10-11T10:58:55.063Z"
+    },
+    {
+      "id": "cmgm5xas80005vt3spskaw5bo",
+      "name": "Sports & Outdoors",
+      "description": "Sports equipment and outdoor gear",
+      "isActive": true,
+      "createdAt": "2025-10-11T10:58:55.065Z",
+      "updatedAt": "2025-10-11T10:58:55.065Z"
+    },
+    {
+      "id": "cmgm5xash0008vt3sp0h942sg",
+      "name": "Hobbies & Crafts",
+      "description": "Craft supplies and hobby materials",
+      "isActive": true,
+      "createdAt": "2025-10-11T10:58:55.074Z",
+      "updatedAt": "2025-10-11T10:58:55.074Z"
+    },
+    {
+      "id": "cmgm5xasj0009vt3s01n01jwr",
+      "name": "Others",
+      "description": "Miscellaneous items",
+      "isActive": true,
+      "createdAt": "2025-10-11T10:58:55.075Z",
+      "updatedAt": "2025-10-11T10:58:55.075Z"
+    },
+    {
+      "id": "cmgm5xdyb0000vtv4gppudxf9",
+      "name": "Keyboards",
+      "description": "Auto-created category for Keyboards",
+      "isActive": true,
+      "createdAt": "2025-10-11T10:58:59.172Z",
+      "updatedAt": "2025-10-11T10:58:59.172Z"
+    },
+    {
+      "id": "cmgm5xdym0001vtv4uxc8fa9q",
+      "name": "Laptops",
+      "description": "Auto-created category for Laptops",
+      "isActive": true,
+      "createdAt": "2025-10-11T10:58:59.183Z",
+      "updatedAt": "2025-10-11T10:58:59.183Z"
+    },
+    {
+      "id": "cmgm5xdyr0002vtv4lssmir9s",
+      "name": "Mice",
+      "description": "Auto-created category for Mice",
+      "isActive": true,
+      "createdAt": "2025-10-11T10:58:59.188Z",
+      "updatedAt": "2025-10-11T10:58:59.188Z"
+    }
+  ],
+  "stores": [
+    {
+      "id": "cmgjcptbp0001vt40le7ox6we",
+      "userId": "user_test_123",
+      "name": "Electronics Hub",
+      "description": "Your one-stop shop for the latest electronics, phones, laptops, and accessories.",
+      "username": "electronics-store",
+      "address": "123 Tech Street, Silicon Valley, CA 94000",
+      "status": "approved",
+      "isActive": true,
+      "logo": "/assets/gs_logo.jpg",
+      "email": "contact@electronics-hub.com",
+      "contact": "+1 (555) 123-4567",
+      "createdAt": "2025-10-09T11:45:44.628Z",
+      "updatedAt": "2025-10-09T11:45:44.628Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "cmgjsvcr60001vtjc63683mco",
+      "name": "tt",
+      "description": "tttt",
+      "mrp": 20,
+      "price": 999,
+      "images": [
+        "/uploads/products/product_1760037475141_zkoz0dqabl.png"
+      ],
+      "categoryId": "cmgm5xdyb0000vtv4gppudxf9",
+      "inStock": true,
+      "storeId": "cmgjcptbp0001vt40le7ox6we",
+      "createdAt": "2025-10-09T19:17:56.945Z",
+      "updatedAt": "2025-10-11T18:50:37.545Z"
+    },
+    {
+      "id": "cmgju13jp000fvtg4bsow9qym",
+      "name": "gg",
+      "description": "gggg",
+      "mrp": 250,
+      "price": 200,
+      "images": [
+        "/uploads/products/product_1760039421653_c16a75cn6tk.png"
+      ],
+      "categoryId": "cmgm5xark0000vt3s207w5i3w",
+      "inStock": true,
+      "storeId": "cmgjcptbp0001vt40le7ox6we",
+      "createdAt": "2025-10-09T19:50:24.565Z",
+      "updatedAt": "2025-10-11T19:41:57.564Z"
+    },
+    {
+      "id": "cmgjewmqv0005vtrg79x40rl5",
+      "name": "test",
+      "description": "test",
+      "mrp": 20,
+      "price": 9000,
+      "images": [
+        "/uploads/products/product_1760016426555_x1wchjdmhq.jpg"
+      ],
+      "categoryId": "cmgm5xash0008vt3sp0h942sg",
+      "inStock": true,
+      "storeId": "cmgjcptbp0001vt40le7ox6we",
+      "createdAt": "2025-10-09T12:47:01.927Z",
+      "updatedAt": "2025-10-11T15:42:42.717Z"
+    },
+    {
+      "id": "cmgmez6p9000hvt0sb5yu5tk5",
+      "name": "mohamed",
+      "description": "qsdf",
+      "mrp": 150,
+      "price": 99,
+      "images": [
+        "/uploads/products/product_1760195535688_rggn8qmk5qd.png"
+      ],
+      "categoryId": "cmgm5xdyb0000vtv4gppudxf9",
+      "inStock": false,
+      "storeId": "cmgjcptbp0001vt40le7ox6we",
+      "createdAt": "2025-10-11T15:12:19.628Z",
+      "updatedAt": "2025-10-11T17:45:36.013Z"
+    },
+    {
+      "id": "cmgmbxmj1000dvt0sact7d7jh",
+      "name": "zaid",
+      "description": "qsdf",
+      "mrp": 233,
+      "price": 200,
+      "images": [
+        "/uploads/products/product_1760190424410_afhcdfk8ye5.png"
+      ],
+      "categoryId": "cmgm5xas60004vt3sciszf7k7",
+      "inStock": true,
+      "storeId": "cmgjcptbp0001vt40le7ox6we",
+      "createdAt": "2025-10-11T13:47:07.981Z",
+      "updatedAt": "2025-10-11T18:43:09.402Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "cmgjcvdf70003vt2gg7v68n3f",
+      "total": 398,
+      "status": "SHIPPED",
+      "userId": "user_login_test",
+      "storeId": "cmgjcptbp0001vt40le7ox6we",
+      "addressId": "cmgjcptcb000jvt40lol5xfql",
+      "isPaid": false,
+      "paymentMethod": "COD",
+      "createdAt": "2025-10-09T11:50:03.956Z",
+      "updatedAt": "2025-10-09T12:04:18.867Z",
+      "isCouponUsed": false,
+      "coupon": {}
+    },
+    {
+      "id": "cmgjfy53z0007vtrg3rzcqdr5",
+      "total": 1099,
+      "status": "ORDER_PLACED",
+      "userId": "admin_user_123",
+      "storeId": "cmgjcptbp0001vt40le7ox6we",
+      "addressId": "cmgjcptcb000jvt40lol5xfql",
+      "isPaid": false,
+      "paymentMethod": "COD",
+      "createdAt": "2025-10-09T13:16:11.997Z",
+      "updatedAt": "2025-10-09T13:16:11.997Z",
+      "isCouponUsed": false,
+      "coupon": {}
+    },
+    {
+      "id": "cmgjtmsg50007vtg4ebzwspyt",
+      "total": 9000,
+      "status": "CANCELLED",
+      "userId": "user_login_test",
+      "storeId": "cmgjcptbp0001vt40le7ox6we",
+      "addressId": "cmgjtmokp0005vtg4gbgou8yy",
+      "isPaid": false,
+      "paymentMethod": "COD",
+      "createdAt": "2025-10-09T19:39:16.997Z",
+      "updatedAt": "2025-10-09T19:44:38.915Z",
+      "isCouponUsed": false,
+      "coupon": {}
+    },
+    {
+      "id": "cmgjlg34m0001vtpslky4xbaa",
+      "total": 119,
+      "status": "SHIPPED",
+      "userId": "admin_user_123",
+      "storeId": "cmgjcptbp0001vt40le7ox6we",
+      "addressId": "test_address_123",
+      "isPaid": false,
+      "paymentMethod": "COD",
+      "createdAt": "2025-10-09T15:50:07.317Z",
+      "updatedAt": "2025-10-09T19:45:58.231Z",
+      "isCouponUsed": false,
+      "coupon": {}
+    },
+    {
+      "id": "cmgjuhk3o000lvtg415ukb695",
+      "total": 200,
+      "status": "ORDER_PLACED",
+      "userId": "admin_user_123",
+      "storeId": "cmgjcptbp0001vt40le7ox6we",
+      "addressId": "test_address_123",
+      "isPaid": false,
+      "paymentMethod": "COD",
+      "createdAt": "2025-10-09T20:03:12.512Z",
+      "updatedAt": "2025-10-09T20:03:12.512Z",
+      "isCouponUsed": false,
+      "coupon": {}
+    },
+    {
+      "id": "cmgmkfb080003vtd4k6gt4gfa",
+      "total": 99,
+      "status": "DELIVERED",
+      "userId": "user_1760199527293_svt3vdqyo",
+      "storeId": "cmgjcptbp0001vt40le7ox6we",
+      "addressId": "cmgmhcnmf0001vtc0bfqgy9vd",
+      "isPaid": false,
+      "paymentMethod": "COD",
+      "createdAt": "2025-10-11T17:44:49.784Z",
+      "updatedAt": "2025-10-11T17:45:35.988Z",
+      "isCouponUsed": false,
+      "coupon": {}
+    },
+    {
+      "id": "cmgml1j6h0001vt20rxf9hspu",
+      "total": 150,
+      "status": "DELIVERED",
+      "userId": "user_login_test",
+      "storeId": "cmgjcptbp0001vt40le7ox6we",
+      "addressId": "cmgjcptcb000jvt40lol5xfql",
+      "isPaid": false,
+      "paymentMethod": "COD",
+      "createdAt": "2025-10-11T18:02:06.809Z",
+      "updatedAt": "2025-10-11T18:02:06.809Z",
+      "isCouponUsed": false,
+      "coupon": {}
+    },
+    {
+      "id": "cmgml26rg000bvtd41u17zimi",
+      "total": 200,
+      "status": "DELIVERED",
+      "userId": "user_1760199527293_svt3vdqyo",
+      "storeId": "cmgjcptbp0001vt40le7ox6we",
+      "addressId": "cmgmhcnmf0001vtc0bfqgy9vd",
+      "isPaid": false,
+      "paymentMethod": "COD",
+      "createdAt": "2025-10-11T18:02:37.372Z",
+      "updatedAt": "2025-10-11T18:03:16.051Z",
+      "isCouponUsed": false,
+      "coupon": {}
+    },
+    {
+      "id": "cmgmmibap0003vtp485rwxdop",
+      "total": 150,
+      "status": "ORDER_PLACED",
+      "userId": "admin_user_123",
+      "storeId": "cmgjcptbp0001vt40le7ox6we",
+      "addressId": "test_address_123",
+      "isPaid": false,
+      "paymentMethod": "COD",
+      "createdAt": "2025-10-11T18:43:09.361Z",
+      "updatedAt": "2025-10-11T18:43:09.361Z",
+      "isCouponUsed": true,
+      "coupon": {
+        "code": "MEMBER25",
+        "discount": 25,
+        "description": "25% Off for Members"
+      }
+    },
+    {
+      "id": "cmgmmr3m4000bvtp4ywwq64pi",
+      "total": 499.5,
+      "status": "DELIVERED",
+      "userId": "admin_user_123",
+      "storeId": "cmgjcptbp0001vt40le7ox6we",
+      "addressId": "test_address_123",
+      "isPaid": false,
+      "paymentMethod": "COD",
+      "createdAt": "2025-10-11T18:49:59.309Z",
+      "updatedAt": "2025-10-11T18:50:37.521Z",
+      "isCouponUsed": true,
+      "coupon": {
+        "code": "0000",
+        "discount": 50,
+        "description": "qsdf"
+      }
+    }
+  ],
+  "orderItems": [
+    {
+      "orderId": "cmgjtmsg50007vtg4ebzwspyt",
+      "productId": "cmgjewmqv0005vtrg79x40rl5",
+      "quantity": 1,
+      "price": 9000
+    },
+    {
+      "orderId": "cmgjuhk3o000lvtg415ukb695",
+      "productId": "cmgju13jp000fvtg4bsow9qym",
+      "quantity": 1,
+      "price": 200
+    },
+    {
+      "orderId": "cmgmkfb080003vtd4k6gt4gfa",
+      "productId": "cmgmez6p9000hvt0sb5yu5tk5",
+      "quantity": 1,
+      "price": 99
+    },
+    {
+      "orderId": "cmgml1j6h0001vt20rxf9hspu",
+      "productId": "cmgmbxmj1000dvt0sact7d7jh",
+      "quantity": 1,
+      "price": 150
+    },
+    {
+      "orderId": "cmgml26rg000bvtd41u17zimi",
+      "productId": "cmgju13jp000fvtg4bsow9qym",
+      "quantity": 1,
+      "price": 200
+    },
+    {
+      "orderId": "cmgmmibap0003vtp485rwxdop",
+      "productId": "cmgmbxmj1000dvt0sact7d7jh",
+      "quantity": 1,
+      "price": 200
+    },
+    {
+      "orderId": "cmgmmr3m4000bvtp4ywwq64pi",
+      "productId": "cmgjsvcr60001vtjc63683mco",
+      "quantity": 1,
+      "price": 999
+    }
+  ],
+  "ratings": [
+    {
+      "id": "cmgmkjtto0001vte0k9lsfqf1",
+      "rating": 5,
+      "review": "This is a test rating created by the system. The product was excellent and delivered on time!",
+      "userId": "user_1760199527293_svt3vdqyo",
+      "productId": "cmgmez6p9000hvt0sb5yu5tk5",
+      "orderId": "cmgmkfb080003vtd4k6gt4gfa",
+      "createdAt": "2025-10-11T17:48:20.796Z",
+      "updatedAt": "2025-10-11T17:48:20.796Z"
+    },
+    {
+      "id": "cmgml3las000hvtd4m7u984bc",
+      "rating": 4,
+      "review": "",
+      "userId": "user_1760199527293_svt3vdqyo",
+      "productId": "cmgju13jp000fvtg4bsow9qym",
+      "orderId": "cmgml26rg000bvtd41u17zimi",
+      "createdAt": "2025-10-11T18:03:42.868Z",
+      "updatedAt": "2025-10-11T18:03:42.868Z"
+    },
+    {
+      "id": "cmgmms8hf000jvtp4m6kia9j3",
+      "rating": 1,
+      "review": "",
+      "userId": "admin_user_123",
+      "productId": "cmgjsvcr60001vtjc63683mco",
+      "orderId": "cmgmmr3m4000bvtp4ywwq64pi",
+      "createdAt": "2025-10-11T18:50:52.276Z",
+      "updatedAt": "2025-10-11T18:50:52.276Z"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "cmgjcptcb000jvt40lol5xfql",
+      "userId": "user_test_123",
+      "name": "John Doe",
+      "email": "test@example.com",
+      "street": "123 Main Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94102",
+      "country": "USA",
+      "phone": "+1 (555) 123-4567",
+      "createdAt": "2025-10-09T11:45:44.651Z"
+    },
+    {
+      "id": "cmgjdc3vv0005vt2gxzw384wq",
+      "userId": "user_1760011384737_iqmrmr8fj",
+      "name": "zaid",
+      "email": "zaid@gmail.com",
+      "street": "boukhalef",
+      "city": "tanger",
+      "state": "morocco",
+      "zip": "90000",
+      "country": "Other",
+      "phone": "0773175504",
+      "createdAt": "2025-10-09T12:03:04.747Z"
+    },
+    {
+      "id": "cmgjtmokp0005vtg4gbgou8yy",
+      "userId": "user_login_test",
+      "name": "mohamed mohousellam",
+      "email": "test@example.com",
+      "street": "tanger",
+      "city": "tanger",
+      "state": "qdsf",
+      "zip": "90000",
+      "country": "United States",
+      "phone": "0773175504",
+      "createdAt": "2025-10-09T19:39:11.977Z"
+    },
+    {
+      "id": "test_address_123",
+      "userId": "admin_user_123",
+      "name": "Admin Address",
+      "email": "admin@example.com",
+      "street": "123 Admin Street",
+      "city": "Admin City",
+      "state": "Admin State",
+      "zip": "12345",
+      "country": "Admin Country",
+      "phone": "12345678901",
+      "createdAt": "2025-10-09T15:49:53.805Z"
+    },
+    {
+      "id": "cmgmhcnmf0001vtc0bfqgy9vd",
+      "userId": "user_1760199527293_svt3vdqyo",
+      "name": "zaid harboull",
+      "email": "zaidd@gmail.com",
+      "street": "qsdf",
+      "city": "qsdf",
+      "state": "qsdf",
+      "zip": "90000",
+      "country": "United Kingdom",
+      "phone": "0012152055",
+      "createdAt": "2025-10-11T16:18:47.317Z"
+    }
+  ],
+  "cart": [],
+  "coupons": [
+    {
+      "code": "NEW20",
+      "description": "20% Off for New Users",
+      "discount": 20,
+      "forNewUser": true,
+      "forMember": false,
+      "isPublic": true,
+      "expiresAt": "2026-12-31T00:00:00.000Z",
+      "isActive": true,
+      "usageCount": 0,
+      "maxUsage": 100,
+      "createdAt": "2025-10-11T18:33:26.276Z",
+      "updatedAt": "2025-10-11T18:33:26.276Z"
+    },
+    {
+      "code": "WELCOME10",
+      "description": "10% Off Welcome Discount",
+      "discount": 10,
+      "forNewUser": true,
+      "forMember": false,
+      "isPublic": true,
+      "expiresAt": "2025-12-31T00:00:00.000Z",
+      "isActive": true,
+      "usageCount": 0,
+      "maxUsage": 50,
+      "createdAt": "2025-10-11T18:33:26.282Z",
+      "updatedAt": "2025-10-11T18:33:26.282Z"
+    },
+    {
+      "code": "SAVE15",
+      "description": "15% Off for All Users",
+      "discount": 15,
+      "forNewUser": false,
+      "forMember": false,
+      "isPublic": true,
+      "expiresAt": "2025-12-31T00:00:00.000Z",
+      "isActive": true,
+      "usageCount": 0,
+      "maxUsage": null,
+      "createdAt": "2025-10-11T18:33:26.284Z",
+      "updatedAt": "2025-10-11T18:33:26.284Z"
+    },
+    {
+      "code": "MEMBER25",
+      "description": "25% Off for Members",
+      "discount": 25,
+      "forNewUser": false,
+      "forMember": true,
+      "isPublic": false,
+      "expiresAt": "2025-12-31T00:00:00.000Z",
+      "isActive": true,
+      "usageCount": 1,
+      "maxUsage": 25,
+      "createdAt": "2025-10-11T18:33:26.288Z",
+      "updatedAt": "2025-10-11T18:43:11.502Z"
+    },
+    {
+      "code": "0000",
+      "description": "qsdf",
+      "discount": 50,
+      "forNewUser": false,
+      "forMember": true,
+      "isPublic": false,
+      "expiresAt": "2025-10-12T00:00:00.000Z",
+      "isActive": true,
+      "usageCount": 1,
+      "maxUsage": 1,
+      "createdAt": "2025-10-11T18:44:54.279Z",
+      "updatedAt": "2025-10-11T18:55:23.822Z"
+    }
+  ],
+  "couponUsages": [
+    {
+      "id": "cmgmmicy20007vtp4e3tff62p",
+      "couponCode": "MEMBER25",
+      "userId": "admin_user_123",
+      "orderId": "cmgmmibap0003vtp485rwxdop",
+      "usedAt": "2025-10-11T18:43:11.498Z"
+    },
+    {
+      "id": "cmgmmr3tb000fvtp4574my5tu",
+      "couponCode": "0000",
+      "userId": "admin_user_123",
+      "orderId": "cmgmmr3m4000bvtp4ywwq64pi",
+      "usedAt": "2025-10-11T18:49:59.567Z"
+    }
+  ],
+  "stockInfo": [
+    {
+      "id": "cmgjkgod6000xvtosnj0c8yq2",
+      "productId": "cmgjewmqv0005vtrg79x40rl5",
+      "quantity": 3,
+      "reserved": 0,
+      "minLevel": 2,
+      "maxLevel": 20,
+      "location": "main_warehouse",
+      "lastUpdated": "2025-10-11T15:42:42.704Z",
+      "createdAt": "2025-10-09T15:22:35.226Z",
+      "updatedAt": "2025-10-11T15:42:42.706Z"
+    },
+    {
+      "id": "cmgmez6ph000jvt0su2vb9pno",
+      "productId": "cmgmez6p9000hvt0sb5yu5tk5",
+      "quantity": 0,
+      "reserved": 0,
+      "minLevel": 5,
+      "maxLevel": 100,
+      "location": "main_warehouse",
+      "lastUpdated": "2025-10-11T17:45:35.999Z",
+      "createdAt": "2025-10-11T15:12:19.637Z",
+      "updatedAt": "2025-10-11T17:45:36.004Z"
+    },
+    {
+      "id": "cmgmbxmjd000fvt0sib53qvcr",
+      "productId": "cmgmbxmj1000dvt0sact7d7jh",
+      "quantity": 19,
+      "reserved": 0,
+      "minLevel": 5,
+      "maxLevel": 100,
+      "location": "main_warehouse",
+      "lastUpdated": "2025-10-11T18:43:09.386Z",
+      "createdAt": "2025-10-11T13:47:07.993Z",
+      "updatedAt": "2025-10-11T18:43:09.389Z"
+    },
+    {
+      "id": "cmgmmofbo0001vt0wpl9gwqcv",
+      "productId": "cmgjsvcr60001vtjc63683mco",
+      "quantity": 8,
+      "reserved": 0,
+      "minLevel": 5,
+      "maxLevel": 100,
+      "location": "main_warehouse",
+      "lastUpdated": "2025-10-11T18:50:37.532Z",
+      "createdAt": "2025-10-11T18:47:54.516Z",
+      "updatedAt": "2025-10-11T18:50:37.534Z"
+    },
+    {
+      "id": "cmgjugspv000hvtg4qymy75pu",
+      "productId": "cmgju13jp000fvtg4bsow9qym",
+      "quantity": 6,
+      "reserved": 0,
+      "minLevel": 5,
+      "maxLevel": 100,
+      "location": "main_warehouse",
+      "lastUpdated": "2025-10-11T19:41:57.549Z",
+      "createdAt": "2025-10-09T20:02:37.027Z",
+      "updatedAt": "2025-10-11T19:41:57.551Z"
+    }
+  ],
+  "stockMovements": [
+    {
+      "id": "cmgjkgod7000zvtos4a4p3nms",
+      "productId": "cmgjewmqv0005vtrg79x40rl5",
+      "type": "INBOUND",
+      "quantity": 8,
+      "reason": "Initial stock setup",
+      "reference": "SYSTEM_INIT",
+      "createdAt": "2025-10-09T15:22:35.227Z"
+    },
+    {
+      "id": "cmgjtmsha0009vtg4haod7war",
+      "productId": "cmgjewmqv0005vtrg79x40rl5",
+      "type": "OUTBOUND",
+      "quantity": 1,
+      "reason": "Order placed",
+      "reference": "cmgjtmsg50007vtg4ebzwspyt",
+      "createdAt": "2025-10-09T19:39:17.039Z"
+    },
+    {
+      "id": "cmgjtod1c000bvtg4vwaz7pym",
+      "productId": "cmgjewmqv0005vtrg79x40rl5",
+      "type": "OUTBOUND",
+      "quantity": 1,
+      "reason": "Order cmgjtmsg50007vtg4ebzwspyt status changed to SHIPPED",
+      "reference": "cmgjtmsg50007vtg4ebzwspyt",
+      "createdAt": "2025-10-09T19:40:30.336Z"
+    },
+    {
+      "id": "cmgjttoup000dvtg4vl20i0q9",
+      "productId": "cmgjewmqv0005vtrg79x40rl5",
+      "type": "RETURN",
+      "quantity": 1,
+      "reason": "Order cmgjtmsg50007vtg4ebzwspyt cancelled - stock restored",
+      "reference": "cmgjtmsg50007vtg4ebzwspyt",
+      "createdAt": "2025-10-09T19:44:38.929Z"
+    },
+    {
+      "id": "cmgjuhk52000nvtg4e7yp0xrq",
+      "productId": "cmgju13jp000fvtg4bsow9qym",
+      "type": "OUTBOUND",
+      "quantity": 1,
+      "reason": "Order placed",
+      "reference": "cmgjuhk3o000lvtg415ukb695",
+      "createdAt": "2025-10-09T20:03:12.566Z"
+    },
+    {
+      "id": "cmgjum8s3000pvtg4my662t8e",
+      "productId": "cmgju13jp000fvtg4bsow9qym",
+      "type": "INBOUND",
+      "quantity": 10,
+      "reason": "inbound adjustment",
+      "reference": null,
+      "createdAt": "2025-10-09T20:06:51.123Z"
+    },
+    {
+      "id": "cmgjund7z000rvtg4i30rv3v8",
+      "productId": "cmgju13jp000fvtg4bsow9qym",
+      "type": "OUTBOUND",
+      "quantity": 1,
+      "reason": "outbound adjustment",
+      "reference": null,
+      "createdAt": "2025-10-09T20:07:43.536Z"
+    },
+    {
+      "id": "cmgmbo0bl0001vt0sjhoznv2g",
+      "productId": "cmgju13jp000fvtg4bsow9qym",
+      "type": "INBOUND",
+      "quantity": 1,
+      "reason": "inbound adjustment",
+      "reference": null,
+      "createdAt": "2025-10-11T13:39:39.295Z"
+    },
+    {
+      "id": "cmgmbop0p0003vt0szwhtw8vd",
+      "productId": "cmgjewmqv0005vtrg79x40rl5",
+      "type": "OUTBOUND",
+      "quantity": 2,
+      "reason": "outbound adjustment",
+      "reference": null,
+      "createdAt": "2025-10-11T13:40:11.305Z"
+    },
+    {
+      "id": "cmgmbovgr0005vt0stsi5hqws",
+      "productId": "cmgjewmqv0005vtrg79x40rl5",
+      "type": "OUTBOUND",
+      "quantity": 1,
+      "reason": "outbound adjustment",
+      "reference": null,
+      "createdAt": "2025-10-11T13:40:19.660Z"
+    },
+    {
+      "id": "cmgmbp3060007vt0si365owrf",
+      "productId": "cmgju13jp000fvtg4bsow9qym",
+      "type": "OUTBOUND",
+      "quantity": 4,
+      "reason": "outbound adjustment",
+      "reference": null,
+      "createdAt": "2025-10-11T13:40:29.430Z"
+    },
+    {
+      "id": "cmgmbpb3f0009vt0snmktnwtp",
+      "productId": "cmgju13jp000fvtg4bsow9qym",
+      "type": "OUTBOUND",
+      "quantity": 1,
+      "reason": "outbound adjustment",
+      "reference": null,
+      "createdAt": "2025-10-11T13:40:39.915Z"
+    },
+    {
+      "id": "cmgmbph4h000bvt0sbnzxo9p7",
+      "productId": "cmgjewmqv0005vtrg79x40rl5",
+      "type": "OUTBOUND",
+      "quantity": 5,
+      "reason": "outbound adjustment",
+      "reference": null,
+      "createdAt": "2025-10-11T13:40:47.729Z"
+    },
+    {
+      "id": "cmgmkfb140005vtd4s8gb1cpo",
+      "productId": "cmgmez6p9000hvt0sb5yu5tk5",
+      "type": "OUTBOUND",
+      "quantity": 1,
+      "reason": "Order placed",
+      "reference": "cmgmkfb080003vtd4k6gt4gfa",
+      "createdAt": "2025-10-11T17:44:49.816Z"
+    },
+    {
+      "id": "cmgmkgao80007vtd4ccgbmbh8",
+      "productId": "cmgmez6p9000hvt0sb5yu5tk5",
+      "type": "OUTBOUND",
+      "quantity": 1,
+      "reason": "Order cmgmkfb080003vtd4k6gt4gfa status changed to DELIVERED",
+      "reference": "cmgmkfb080003vtd4k6gt4gfa",
+      "createdAt": "2025-10-11T17:45:36.009Z"
+    },
+    {
+      "id": "cmgml26ry000dvtd4n4xegrib",
+      "productId": "cmgju13jp000fvtg4bsow9qym",
+      "type": "OUTBOUND",
+      "quantity": 1,
+      "reason": "Order placed",
+      "reference": "cmgml26rg000bvtd41u17zimi",
+      "createdAt": "2025-10-11T18:02:37.391Z"
+    },
+    {
+      "id": "cmgml30m7000fvtd423lli2zd",
+      "productId": "cmgju13jp000fvtg4bsow9qym",
+      "type": "OUTBOUND",
+      "quantity": 1,
+      "reason": "Order cmgml26rg000bvtd41u17zimi status changed to DELIVERED",
+      "reference": "cmgml26rg000bvtd41u17zimi",
+      "createdAt": "2025-10-11T18:03:16.064Z"
+    },
+    {
+      "id": "cmgmmibbl0005vtp4mgvp9rdc",
+      "productId": "cmgmbxmj1000dvt0sact7d7jh",
+      "type": "OUTBOUND",
+      "quantity": 1,
+      "reason": "Order placed",
+      "reference": "cmgmmibap0003vtp485rwxdop",
+      "createdAt": "2025-10-11T18:43:09.394Z"
+    },
+    {
+      "id": "cmgmmpxnx0003vtco8omsrsgb",
+      "productId": "cmgjsvcr60001vtjc63683mco",
+      "type": "OUTBOUND",
+      "quantity": 1,
+      "reason": "Order placed",
+      "reference": "cmgmmpxnj0001vtcou39knn77",
+      "createdAt": "2025-10-11T18:49:04.942Z"
+    },
+    {
+      "id": "cmgmmr3n3000dvtp4347qkso5",
+      "productId": "cmgjsvcr60001vtjc63683mco",
+      "type": "OUTBOUND",
+      "quantity": 1,
+      "reason": "Order placed",
+      "reference": "cmgmmr3m4000bvtp4ywwq64pi",
+      "createdAt": "2025-10-11T18:49:59.343Z"
+    },
+    {
+      "id": "cmgmmrx43000hvtp4xclfmopm",
+      "productId": "cmgjsvcr60001vtjc63683mco",
+      "type": "OUTBOUND",
+      "quantity": 1,
+      "reason": "Order cmgmmr3m4000bvtp4ywwq64pi status changed to DELIVERED",
+      "reference": "cmgmmr3m4000bvtp4ywwq64pi",
+      "createdAt": "2025-10-11T18:50:37.540Z"
+    },
+    {
+      "id": "cmgmolxo60001vtkc6pm3wirk",
+      "productId": "cmgju13jp000fvtg4bsow9qym",
+      "type": "INBOUND",
+      "quantity": 2,
+      "reason": "inbound adjustment",
+      "reference": null,
+      "createdAt": "2025-10-11T19:41:57.556Z"
+    }
+  ],
+  "exportedAt": "2025-10-13T22:09:08.799Z",
+  "version": "1.0.0"
+}
